@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DiarioM3</string>
+    <string name="menu_home">Diario</string>
+    <string name="menu_gallery">Utente</string>
+    <string name="menu_slideshow">Cal. Calorie</string>
+    <string name="icona_cibo">icona cibo</string>
+    <string name="nome_cibo">Nome Cibo</string>
+    <string name="_2500_kcal">2500 Kcal</string>
+    <string name="text">text</string>
+    <string name="data">Data</string>
+    <string name="nome">Nome</string>
+    <string name="calorie">Calorie</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="sesso">Sesso</string>
+    <string name="peso">Peso</string>
+    <string name="eta">Età</string>
+    <string name="calcola">Calcola</string>
+    <string name="calorie_obiettivo">Calorie Obiettivo</string>
+    <string name="annulla">Annulla</string>
+    <string name="add">Add</string>
+    <string name="_15">15</string>
+    <string name="maggio">maggio</string>
+    <string name="calorie_assunte">Calorie Assunte</string>
+    <string name="inserisci_i_dati">Inserisci i dati</string>
+    <string name="e_mail">e-mail</string>
+    <string name="canc">canc</string>
+    <string name="ok" tools:ignore="ButtonCase,Typos">ok</string>
+    <string name="_2500">2500</string>
+    <string name="Saluto">Ciao, Nome Utente</string>
+    <string name="titolo_obiettivo">Il tuo obiettivo calorico attuale è di</string>
+    <string name="placeholder_mail">example@gmail.com</string>
+    <string name="nome_utente">Nome Utente</string>
+    <string name="immagine_utente">immagine Utente</string>
+    <string name="cover">Cover</string>
+    <string name="nameplaceholder">NamePlaceholder</string>
+    <string name="_400_kcal">400 kcal</string>
+    <string name="ricettario">Ricettario</string>
+    <string name="title">Seleziona Data</string>
+    <string name="nav_grafici">Grafici</string>
+    <string name="settembre">Settembre</string>
+    <string name="giorni_obiettivo_raggiunto">Giorni Obiettivo Raggiunto</string>
+    <string name="giorni_obiettivo_non_raggiunto">Giorni Obiettivo Non Raggiunto</string>
+    <string name="_10_30">10/30</string>
+    <string name="giorni_non_inseriti">Giorni Non Inseriti</string>
+    <string name="_2022">2022</string>
+    <string name="calendario">calendario</string>
+    <string name="offset_giornaliero">Offset giornaliero</string>
+    <string name="dettagli_mensili">Dettagli mensili</string>
+    <string name="inserisci_la_tua_ricetta">Inserisci la tua ricetta</string>
+    <string name="kcal">KCal</string>
+    <string name="immagine">Immagine:</string>
+    <string name="ingredienti">Ingredienti</string>
+    <string name="seleziona">Seleziona</string>
+    <string name="descrizione">Descrizione</string>
+    <string name="salva">Salva</string>
+    <string name="nome_ricetta">Nome ricetta</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed accumsan mi, sed tempus ante. Curabitur fringilla scelerisque augue, sed elementum mi rhoncus eget. Nulla hendrerit sed urna nec blandit. Vivamus tristique elit eu felis maximus, a elementum mi consectetur. Cras vel sollicitudin purus. Cras eget blandit diam, quis imperdiet enim. Vestibulum a mauris a urna posuere ultricies.</string>
+    <string name="elimina">Elimina</string>
+    <string name="modifica">Modifica</string>
+    <string name="inserici_alimento">Inserici alimento</string>
+    <string name="seleziona_data">Seleziona data</string>
+    <string name="la_data_seleziona_n10_jun_2020">La data seleziona è \n10 jun 2020</string>
+    <string name="seleziona_la_tua_immagine_ndalla_galleria">Seleziona la tua immagine\ndalla galleria</string>
+    <string name="share">share</string>
+    <string name="kcalorie">KCalorie</string>
+    <string name="calcolatrice_calorie">Calcolatrice calorie</string>
+    <string name="addbutton">AddButton</string>
+    <string name="rimuovi">Rimuovi</string>
+
+
+    <string-array name="SelectSex">
+        <item>Maschio</item>
+        <item>Femmina</item>
+    </string-array>
+</resources>

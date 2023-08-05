@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.recipes.AddRicettaDialog"
+    android:layout_gravity="center"
+    android:gravity="start"
+    app:shapeAppearanceOverlay= "?attr/shapeAppearanceMediumComponent"
+    android:background="@drawable/dialog_bg"
+    android:padding="24dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/inserisci_la_tua_ricetta"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addNomeRicettaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nome_ricetta"
+            android:minHeight="48dp"
+            android:layout_marginBottom="2dp"
+            app:errorEnabled="true"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/addNomeRicetta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                tools:ignore="TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addKcalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/kcal"
+        android:layout_marginBottom="8dp"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/addKcal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorOnSecondary"
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_marginBottom="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immagine"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dataPiked"
+                android:layout_marginTop="8dp"
+                android:text="@string/seleziona_la_tua_immagine_ndalla_galleria"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                android:textColor="?android:attr/textColorSecondary"
+                />
+            <Button
+                android:id="@+id/image_button"
+                android:layout_width="134dp"
+                android:layout_height="48dp"
+                android:text="@string/seleziona"
+                android:layout_gravity="end"
+                android:backgroundTint="?attr/colorTertiaryContainer"
+                android:textColor="?attr/colorOnTertiaryContainer"
+
+                />
+            <Button
+                android:id="@+id/remove_image_button"
+                android:layout_width="134dp"
+                android:layout_height="48dp"
+                android:text="@string/rimuovi"
+                android:layout_gravity="end"
+                android:backgroundTint="?attr/colorTertiary"
+                android:textColor="?attr/colorOnTertiary"
+                android:visibility="gone"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/ingredienti"
+            android:layout_marginBottom="2dp"
+            app:errorEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/addIng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                tools:ignore="TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/descrizione"
+            android:layout_marginBottom="24dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/addDesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="15"
+                tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/annullaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:text="@string/annulla"
+            android:padding="8dp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+        android:id="@+id/salvaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/salva"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

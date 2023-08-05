@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.material3app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        </fragment>
+
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.example.material3app.ui.user.UserFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="com.example.material3app.ui.slideshow.CalcolaFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_calcola" />
+
+    <fragment
+        android:id="@+id/nav_fragment_grafici"
+        android:name="com.example.material3app.ui.graph.GraficiMensiliFragment"
+        android:label="@string/nav_grafici"
+        tools:layout="@layout/fragment_grafici_mensili" />
+
+    <fragment
+        android:id="@+id/nav_recipes"
+        android:name="com.example.material3app.ui.recipes.ListaRicettaFragment"
+        android:label="@string/ricettario"
+        tools:layout="@layout/fragment_lista_ricette" >
+    </fragment>
+
+</navigation>
